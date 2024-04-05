@@ -1,7 +1,8 @@
 import React from "react";
+import style from "../Css/Error.module.css"
 
 const Error = () => {
-  return <div>...error</div>;
+  return <div className={style.loaddiv}>......Error</div>;
 };
 
 export default Error;
